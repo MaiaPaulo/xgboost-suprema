@@ -1,0 +1,3 @@
+A media do erro absoluto por ponto seria de:55.34459093761555
+A mediana do erro absoluto por ponto seria de:22.422564697265628
+
