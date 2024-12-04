@@ -64,3 +64,4 @@ LEFT JOIN one_hour_window_counts o ON
 WHERE
     t1.match_type_detail_name = 'MTT-NLH'
     AND t1.class_match IN ('Micro', 'Low')
+    AND t1.start_date_local between '2023-01-01' AND '2024-12-31'
