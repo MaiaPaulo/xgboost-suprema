@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import joblib
 import pickle
-import cachetools
 
 # SET THE PATH FOR THE MODEL AND ENCODER:
 path_encoder = '../new_model/encoder.pkl'
