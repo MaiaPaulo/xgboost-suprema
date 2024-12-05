@@ -1,3 +1,9 @@
-pandas 
-joblib
-streamlit
+name: streamlit-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - streamlit
+  - pandas
+  - numpy
+  - joblib
