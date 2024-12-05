@@ -1,9 +1,7 @@
 # Verifica se um arquivo foi carregado
 import streamlit as st
 import pandas as pd
-import numpy as np
 import joblib
-import pickle
 
 # SET THE PATH FOR THE MODEL AND ENCODER:
 path_encoder = '../new_model/encoder.pkl'
