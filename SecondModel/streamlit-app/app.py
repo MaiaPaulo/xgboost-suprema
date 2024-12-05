@@ -58,5 +58,3 @@ if data is not None:
     )
 else:
     st.write("Por favor, faça o upload de um arquivo CSV para continuar.")
-
-if __name__ == "__main__":
