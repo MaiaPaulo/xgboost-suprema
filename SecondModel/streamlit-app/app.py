@@ -12,8 +12,8 @@ with open(path_encoder, 'rb') as f:
     encoder = pickle.load(f)
 
 
- with open(path_model, 'rb') as f:
-     model = pickle.load(f)
+with open(path_model, 'rb') as f:
+    model = pickle.load(f)
 
 
 #encoder = joblib.load(path_encoder)
