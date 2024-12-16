@@ -1,23 +1,24 @@
 # Verifica se um arquivo foi carregado
 import streamlit as st
 import pandas as pd
+import joblib
 import pickle
 
 # SET THE PATH FOR THE MODEL AND ENCODER:
-path_encoder = '../new_model/encoder.pkl'
-path_model = '../new_model/model.pkl'
+path_encoder = 'encoder.pkl'
+path_model = 'model.pkl'
 
 
-with open(path_encoder, 'rb') as f:
-    encoder = pickle.load(f)
+#with open(path_encoder, 'rb') as f:
+#    encoder = pickle.load(f)
 
 
-with open(path_model, 'rb') as f:
-    model = pickle.load(f)
+#with open(path_model, 'rb') as f:
+#    model = pickle.load(f)
 
 
-#encoder = joblib.load(path_encoder)
-#model = joblib.load(path_model)
+encoder = joblib.load(path_encoder)
+model = joblib.load(path_model)
 
 # Título do App
 st.title(':spades: :blue[Modelo de regressão MTT] :spades:')

@@ -1,8 +1,10 @@
 name: streamlit-env
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.10
-  - streamlit
-  - pandas
+  - streamlit=1.40.2
+  - pandas=2.2.3
   - pickle
+  - joblib=1.4.2
